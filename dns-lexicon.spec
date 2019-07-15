@@ -4,7 +4,7 @@
 #
 Name     : dns-lexicon
 Version  : 3.3.0
-Release  : 2
+Release  : 3
 URL      : https://files.pythonhosted.org/packages/1a/3e/840b4f6ab635cc9f40041c17e3f8420d9826c1352fa788d6f6e95e621536/dns-lexicon-3.3.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/1a/3e/840b4f6ab635cc9f40041c17e3f8420d9826c1352fa788d6f6e95e621536/dns-lexicon-3.3.0.tar.gz
 Summary  : Manipulate DNS records on various DNS providers in a standardized/agnostic way
@@ -21,9 +21,12 @@ BuildRequires : PyYAML
 BuildRequires : buildreq-distutils3
 BuildRequires : cryptography
 BuildRequires : python-future
+BuildRequires : requests
 BuildRequires : requests-file-python
+BuildRequires : requests-python
 BuildRequires : testscenarios
 BuildRequires : tldextract
+BuildRequires : tldextract-python
 
 %description
 <p align="center">
@@ -75,7 +78,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1563197671
+export SOURCE_DATE_EPOCH=1563199587
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
