@@ -1,4 +1,4 @@
-3.3.4
+3.3.5
 future-python
 python-future
 requests
@@ -6,3 +6,4 @@ requests-file-python
 requests-python
 testscenarios
 tldextract-python
+util-linux
