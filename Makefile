@@ -1,5 +1,5 @@
 PKG_NAME := dns-lexicon
-URL = https://files.pythonhosted.org/packages/29/91/79727eeb0f87120a6c2c8c71f7582eda719fcd542e268e50edd6a76d7f02/dns-lexicon-3.3.24.tar.gz
+URL = https://files.pythonhosted.org/packages/df/00/a75fd9bda1e89f6028658be7836ed291025c3163647907151f852db26541/dns-lexicon-3.3.26.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
