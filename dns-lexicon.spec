@@ -4,7 +4,7 @@
 #
 Name     : dns-lexicon
 Version  : 3.4.3
-Release  : 34
+Release  : 35
 URL      : https://files.pythonhosted.org/packages/a4/c8/d8c3b1561a68e06687a719fb9beba2f5bc75b44a7448beb76aa611462754/dns-lexicon-3.4.3.tar.gz
 Source0  : https://files.pythonhosted.org/packages/a4/c8/d8c3b1561a68e06687a719fb9beba2f5bc75b44a7448beb76aa611462754/dns-lexicon-3.4.3.tar.gz
 Summary  : Manipulate DNS records on various DNS providers in a standardized/agnostic way
@@ -15,6 +15,7 @@ Requires: dns-lexicon-license = %{version}-%{release}
 Requires: dns-lexicon-python = %{version}-%{release}
 Requires: dns-lexicon-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
+Patch1: deps.patch
 
 %description
 ============
@@ -67,13 +68,14 @@ python3 components for the dns-lexicon package.
 %prep
 %setup -q -n dns-lexicon-3.4.3
 cd %{_builddir}/dns-lexicon-3.4.3
+%patch1 -p1
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1599597209
+export SOURCE_DATE_EPOCH=1603224726
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
