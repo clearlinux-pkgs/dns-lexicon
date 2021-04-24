@@ -4,7 +4,7 @@
 #
 Name     : dns-lexicon
 Version  : 3.5.6
-Release  : 43
+Release  : 44
 URL      : https://files.pythonhosted.org/packages/f3/84/be63b0534f819e27dadc008ddeb3c6cca91b9044b43573150664a9e7eac4/dns-lexicon-3.5.6.tar.gz
 Source0  : https://files.pythonhosted.org/packages/f3/84/be63b0534f819e27dadc008ddeb3c6cca91b9044b43573150664a9e7eac4/dns-lexicon-3.5.6.tar.gz
 Summary  : Manipulate DNS records on various DNS providers in a standardized/agnostic way
