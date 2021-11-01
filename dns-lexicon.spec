@@ -4,7 +4,7 @@
 #
 Name     : dns-lexicon
 Version  : 3.8.1
-Release  : 55
+Release  : 56
 URL      : https://files.pythonhosted.org/packages/12/43/5c78b84c648a0165745b8dc0783563d55028f4a52c72601ab8ff51bdafb0/dns-lexicon-3.8.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/12/43/5c78b84c648a0165745b8dc0783563d55028f4a52c72601ab8ff51bdafb0/dns-lexicon-3.8.1.tar.gz
 Summary  : Manipulate DNS records on various DNS providers in a standardized/agnostic way
@@ -72,7 +72,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1634578229
+export SOURCE_DATE_EPOCH=1635724849
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
